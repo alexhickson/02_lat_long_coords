@@ -1,0 +1,6 @@
+cd c:\python
+
+pip install requests
+pip install pandas
+
+python lat_long.py
