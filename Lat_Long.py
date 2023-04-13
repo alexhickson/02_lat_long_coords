@@ -13,7 +13,7 @@ import json
 df = pd.read_csv ('addresses.csv')
 
 # subscription key from https://www.bingmapsportal.com/Application#
-subscription_key = "Ai2m2VKFl6iFKhB8p_2ZFl7JlBzX5LOHU2wq4tYgKTWPZ0mCcPWSI-Kf7znUWxFZ"
+subscription_key = "<INSERT MAPS API KEY HERE>"
 
 for i in range(df.shape[0]):
     # take each cell from the row being iterated
